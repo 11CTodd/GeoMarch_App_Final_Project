@@ -10,12 +10,13 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.DialogFragment;
 
 import com.google.firebase.auth.FirebaseUser;
 
 import java.util.HashMap;
 
-public class GameBoard extends AppCompatActivity implements FirestoreDB.OnGameUpdateListener {
+public class GameBoard extends AppCompatActivity implements FirestoreDB.OnGameUpdateListener, DeleteDialog.ButtonClickListener {
     private static Boolean player1 = false;
     private String uid = FirestoreDB.getInstance().getUser();
     private Boolean p1joined = false;
@@ -192,6 +193,7 @@ public class GameBoard extends AppCompatActivity implements FirestoreDB.OnGameUp
                     }
                     else {
                         turn1 = false;
+                        FirestoreDB.getInstance().update(thisGame.getBoardState());
                     }
                 }
                 break;
@@ -216,8 +218,11 @@ public class GameBoard extends AppCompatActivity implements FirestoreDB.OnGameUp
 
     @Override
     public void onBackPressed(){
-        FirestoreDB.getInstance().quitCurrentGame();
-        super.onBackPressed();
-        finish();
+        DialogFragment dialogFragment = new DeleteDialog(this);
+        dialogFragment.show(getSupportFragmentManager(), "deleteDialog");
+    }
+
+    public void onButtonClick(){
+
     }
 }
