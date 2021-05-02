@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/starLabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=" played"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toEndOf="@+id/statCircleLabel"
+        app:layout_constraintTop_toBottomOf="@+id/squareLabel2" />
+
+    <TextView
+        android:id="@+id/statStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="345"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@+id/points"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/points"
+        app:layout_constraintTop_toBottomOf="@+id/statSquare" />
+
+    <ImageView
+        android:id="@+id/statStarLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/pointsLabel"
+        app:layout_constraintTop_toTopOf="@+id/starLabel2"
+        app:srcCompat="@drawable/ic_star" />
+
+    <TextView
+        android:id="@+id/statSquare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="358"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@+id/points"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/points"
+        app:layout_constraintTop_toBottomOf="@+id/statCircle" />
+
+    <TextView
+        android:id="@+id/squareLabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=" played"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toEndOf="@+id/statCircleLabel"
+        app:layout_constraintTop_toBottomOf="@+id/circleLabel2" />
+
+    <ImageView
+        android:id="@+id/statSquareLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/pointsLabel"
+        app:layout_constraintTop_toBottomOf="@+id/circleLabel2"
+        app:srcCompat="@drawable/ic_square" />
+
+    <TextView
+        android:id="@+id/statTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Player Statistics"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/totalGamesLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Total games played"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/statTitle" />
+
+    <TextView
+        android:id="@+id/totalGames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="100"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toEndOf="@+id/totalGamesLabel"
+        app:layout_constraintTop_toTopOf="@+id/totalGamesLabel" />
+
+    <TextView
+        android:id="@+id/winsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Wins"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="@+id/totalGamesLabel"
+        app:layout_constraintTop_toBottomOf="@+id/totalGamesLabel" />
+
+    <TextView
+        android:id="@+id/wins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="50"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@+id/totalGames"
+        app:layout_constraintStart_toStartOf="@+id/totalGames"
+        app:layout_constraintTop_toBottomOf="@+id/totalGames" />
+
+    <TextView
+        android:id="@+id/lossesLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Losses"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="@+id/winsLabel"
+        app:layout_constraintTop_toBottomOf="@+id/winsLabel" />
+
+    <TextView
+        android:id="@+id/losses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="50"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@+id/wins"
+        app:layout_constraintStart_toStartOf="@+id/wins"
+        app:layout_constraintTop_toBottomOf="@+id/wins" />
+
+    <TextView
+        android:id="@+id/pointsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Total points scored"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="@+id/lossesLabel"
+        app:layout_constraintTop_toBottomOf="@+id/lossesLabel" />
+
+    <TextView
+        android:id="@+id/points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="253"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@+id/losses"
+        app:layout_constraintStart_toStartOf="@+id/losses"
+        app:layout_constraintTop_toBottomOf="@+id/losses" />
+
+    <ImageView
+        android:id="@+id/statCircleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/pointsLabel"
+        app:layout_constraintTop_toBottomOf="@+id/pointsLabel"
+        app:srcCompat="@drawable/ic_circle" />
+
+    <TextView
+        android:id="@+id/circleLabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=" played"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toEndOf="@+id/statCircleLabel"
+        app:layout_constraintTop_toBottomOf="@+id/pointsLabel" />
+
+    <TextView
+        android:id="@+id/statCircle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="428"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@+id/points"
+        app:layout_constraintStart_toStartOf="@+id/points"
+        app:layout_constraintTop_toBottomOf="@+id/points" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

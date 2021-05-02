@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "476868517665",
+    "project_id": "geo-march",
+    "storage_bucket": "geo-march.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476868517665:android:406d7696a4ed7d9fed2860",
+        "android_client_info": {
+          "package_name": "com.example.cft_app_prog_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476868517665-oe19fveej1etj80l1i03cgjk5rbq3782.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWkEEjZ-oiz9w2FPVmhJef2-iGc4zyrnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476868517665-oe19fveej1etj80l1i03cgjk5rbq3782.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

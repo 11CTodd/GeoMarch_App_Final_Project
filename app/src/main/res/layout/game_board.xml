@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/grid54"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="32dp"
+        android:clickable="false"
+        android:contentDescription="@string/empty"
+        app:layout_constraintBottom_toTopOf="@+id/StarButton"
+        app:layout_constraintEnd_toStartOf="@+id/grid15"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/grid13"
+        app:layout_constraintTop_toBottomOf="@+id/grid44"
+        android:onClick="place"/>
+
+    <ImageButton
+        android:id="@+id/grid53"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="32dp"
+        android:clickable="false"
+        android:contentDescription="@string/empty"
+        app:layout_constraintBottom_toTopOf="@+id/StarButton"
+        app:layout_constraintEnd_toStartOf="@+id/grid14"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/grid12"
+        app:layout_constraintTop_toBottomOf="@+id/grid43"
+        android:onClick="place"/>
+
+    <ImageButton
+        android:id="@+id/grid55"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="32dp"
+        android:clickable="false"
+        android:contentDescription="@string/empty"
+        app:layout_constraintBottom_toTopOf="@+id/SquareButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/grid14"
+        app:layout_constraintTop_toBottomOf="@+id/grid45"
+        android:onClick="place"/>
+
+    <ImageButton
+        android:id="@+id/grid51"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="32dp"
+        android:clickable="false"
+        android:contentDescription="@string/empty"
+        app:layout_constraintBottom_toTopOf="@+id/CircleButton"
+        app:layout_constraintEnd_toStartOf="@+id/grid12"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grid41"
+        android:onClick="place"/>
+
+    <ImageButton
+        android:id="@+id/grid52"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="32dp"
+        android:clickable="false"
+        android:contentDescription="@string/empty"
+        app:layout_constraintBottom_toTopOf="@+id/CircleButton"
+        app:layout_constraintEnd_toStartOf="@+id/grid13"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/grid11"
+        app:layout_constraintTop_toBottomOf="@+id/grid42"
+        android:onClick="place"/>
+
+    <ImageButton
+        android:id="@+id/grid44"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/empty"
+        app:layout_constraintBottom_toTopOf="@+id/grid54"
+        app:layout_constraintEnd_toStartOf="@+id/grid15"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/grid13"
+        app:layout_constraintTop_toBottomOf="@+id/grid34" />
+
+    <ImageButton
+        android:id="@+id/grid43"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/empty"
+        app:layout_constraintBottom_toTopOf="@+id/grid53"
+        app:layout_constraintEnd_toStartOf="@+id/grid14"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/grid12"
+        app:layout_constraintTop_toBottomOf="@+id/grid33" />
+
+    <ImageButton
+        android:id="@+id/grid45"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/empty"
+        app:layout_constraintBottom_toTopOf="@+id/grid55"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/grid14"
+        app:layout_constraintTop_toBottomOf="@+id/grid35" />
+
+    <ImageButton
+        android:id="@+id/grid41"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/empty"
+        app:layout_constraintBottom_toTopOf="@+id/grid51"
+        app:layout_constraintEnd_toStartOf="@+id/grid12"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grid31" />
+
+    <ImageButton
+        android:id="@+id/grid42"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/empty"
+        app:layout_constraintBottom_toTopOf="@+id/grid52"
+        app:layout_constraintEnd_toStartOf="@+id/grid13"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/grid11"
+        app:layout_constraintTop_toBottomOf="@+id/grid32" />
+
+    <ImageButton
+        android:id="@+id/grid33"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/empty"
+        app:layout_constraintBottom_toTopOf="@+id/grid43"
+        app:layout_constraintEnd_toStartOf="@+id/grid14"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/grid12"
+        app:layout_constraintTop_toBottomOf="@+id/grid23" />
+
+    <ImageButton
+        android:id="@+id/grid32"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/empty"
+        app:layout_constraintBottom_toTopOf="@+id/grid42"
+        app:layout_constraintEnd_toStartOf="@+id/grid13"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/grid11"
+        app:layout_constraintTop_toBottomOf="@+id/grid22" />
+
+    <ImageButton
+        android:id="@+id/grid35"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/empty"
+        app:layout_constraintBottom_toTopOf="@+id/grid45"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/grid14"
+        app:layout_constraintTop_toBottomOf="@+id/grid25" />
+
+    <ImageButton
+        android:id="@+id/grid31"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/empty"
+        app:layout_constraintBottom_toTopOf="@+id/grid41"
+        app:layout_constraintEnd_toStartOf="@+id/grid12"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grid21" />
+
+    <ImageButton
+        android:id="@+id/grid34"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/empty"
+        app:layout_constraintBottom_toTopOf="@+id/grid44"
+        app:layout_constraintEnd_toStartOf="@+id/grid15"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/grid13"
+        app:layout_constraintTop_toBottomOf="@+id/grid24" />
+
+    <ImageButton
+        android:id="@+id/grid24"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/empty"
+        app:layout_constraintBottom_toTopOf="@+id/grid34"
+        app:layout_constraintEnd_toStartOf="@+id/grid15"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/grid13"
+        app:layout_constraintTop_toBottomOf="@+id/grid14" />
+
+    <ImageButton
+        android:id="@+id/grid23"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/empty"
+        app:layout_constraintBottom_toTopOf="@+id/grid33"
+        app:layout_constraintEnd_toStartOf="@+id/grid14"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/grid12"
+        app:layout_constraintTop_toBottomOf="@+id/grid13" />
+
+    <ImageButton
+        android:id="@+id/grid25"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/empty"
+        app:layout_constraintBottom_toTopOf="@+id/grid35"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/grid14"
+        app:layout_constraintTop_toBottomOf="@+id/grid15" />
+
+    <ImageButton
+        android:id="@+id/grid21"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/empty"
+        app:layout_constraintBottom_toTopOf="@+id/grid31"
+        app:layout_constraintEnd_toStartOf="@+id/grid12"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grid11" />
+
+    <ImageButton
+        android:id="@+id/grid22"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/empty"
+        app:layout_constraintBottom_toTopOf="@+id/grid32"
+        app:layout_constraintEnd_toStartOf="@+id/grid13"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/grid11"
+        app:layout_constraintTop_toBottomOf="@+id/grid12" />
+
+    <ImageButton
+        android:id="@+id/StarButton"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="#1D1033"
+        android:clickable="false"
+        android:contentDescription="@string/star"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/SquareButton"
+        app:layout_constraintStart_toEndOf="@+id/CircleButton"
+        app:srcCompat="@drawable/ic_star"
+        android:onClick="choose"/>
+
+    <ImageButton
+        android:id="@+id/CircleButton"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="#1D1033"
+        android:contentDescription="@string/circle"
+        android:onClick="choose"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/StarButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_circle" />
+
+    <ImageButton
+        android:id="@+id/SquareButton"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="#1D1033"
+        android:clickable="false"
+        android:contentDescription="@string/square"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toEndOf="@+id/StarButton"
+        app:srcCompat="@drawable/ic_square"
+        android:onClick="choose"/>
+
+    <ImageButton
+        android:id="@+id/grid11"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/empty"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/grid21"
+        app:layout_constraintEnd_toStartOf="@+id/grid12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/grid12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/empty"
+        app:layout_constraintBottom_toTopOf="@+id/grid22"
+        app:layout_constraintEnd_toStartOf="@+id/grid13"
+        app:layout_constraintStart_toEndOf="@+id/grid11"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/grid13"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/empty"
+        app:layout_constraintBottom_toTopOf="@+id/grid23"
+        app:layout_constraintEnd_toStartOf="@+id/grid14"
+        app:layout_constraintStart_toEndOf="@+id/grid12"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/grid14"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/empty"
+        app:layout_constraintBottom_toTopOf="@+id/grid24"
+        app:layout_constraintEnd_toStartOf="@+id/grid15"
+        app:layout_constraintStart_toEndOf="@+id/grid13"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/grid15"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/empty"
+        app:layout_constraintBottom_toTopOf="@+id/grid25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/grid14"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/GameTicker"
+        android:layout_width="361dp"
+        android:layout_height="23dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/StarButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grid53" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

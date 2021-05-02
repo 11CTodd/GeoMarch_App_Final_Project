@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CFT_App_Prog_Project</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="night_mode_summ">Toggles night mode</string>
+    <string name="join_game">Join Game</string>
+    <string name="march">MARCH</string>
+    <string name="geo">GEO</string>
+    <string name="working_title">(Working Title)</string>
+    <string name="create_game">Create Game</string>
+    <string name="settings">Settings</string>
+    <string name="circle">Circle</string>
+    <string name="star">Star</string>
+    <string name="square">Square</string>
+    <string name="empty">Empty</string>
+    <string name="wait2">Waiting for player 2...</string>
+    <string name="phase1">Choose your piece: Circle > Star > Square > Circle</string>
+    <string name="phase2">Tap a space in the bottom row to place your piece</string>
+    <string name="wait1">Waiting for player 1...</string>
+    <string name="placeCircle">Chose Circle. Place on the bottom row</string>
+    <string name="placeStar">Chose Star. Place on the bottom row</string>
+    <string name="placeSquare">Chose Square. Place on the bottom row</string>
+    <string name="choiceError">Error choosing piece</string>
+</resources>
